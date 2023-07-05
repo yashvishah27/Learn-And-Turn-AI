@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  background-color: lightcyan;
+}
+h1 {
+  color: black;
+  text-align: center;
+}
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+.container {
+  position: relative;
+  font-family: Arial;
+}
+
+
+.text {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: lightcyan;
+  color: black;
+  padding-left:20px ;
+  padding-right: 20px;
+}
+
+.block {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+background-color: lightcyan;
+  color: black;
+  padding-left:20px ;
+  padding-right: 20px;
+}
+.blocknow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: lightcyan;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.logout{
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+
+  transform: translate(-50%, -50%);
+  background-color: lightcyan;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: lightcyan;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+
+}
+</style>
+</head>
+<body>
+
+<h1><b>Learn & Turn AI</b></h1>
+<p><b><center><i><h1>Searching Algorithms in AI</h1></center></i></b></p>
+<div class="container">
+  <img src="intro4.jpg" alt="introo4" width="1550" height="750">
+  </img>
+  <div class="text">
+      <p><a href="wp7.html">NEXT</a></p>
+   </div>
+ <div class="block">
+      <p><a href="wp3.html">BACK</a></p>
+   </div>
+<div class="logout">
+      <p><a href="wp.html">LOG OUT</a></p>
+   </div>
+<div class="blocknow">
+<h4>Search Algorithms?</h4>
+<p>Artificial Intelligence is the study of building agents that act rationally. Most of the time, these agents perform some kind of search algorithm in the background in order to achieve their tasks.
+<br>
+A search problem consists of:<br>
+A State Space -Set of all possible states where you can be.
+A Start State -The state from where the search begins.
+A Goal Test -A function that looks at the current state returns whether or not it is the goal state.
+The Solution to a search problem is a sequence of actions, called the plan that transforms the start state to the goal state.
+This plan is achieved through search algorithms.<br>
+<b>Refer down the search algorithms</b>
+</p>
+	</div>
+<div class="navbar">
+  <a href="wp5.html">Uninformed Search</a>
+  <a href="wp6.html">Informed Search</a>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  background-color: turquoise;
+}
+h1 {
+  color: black;
+  text-align: center;
+}
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+.container {
+  position: relative;
+  font-family: Arial;
+}
+
+
+.text {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: lightcyan;
+  color: black;
+  padding-left:20px ;
+  padding-right: 20px;
+}
+
+.block {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+background-color: lightcyan;
+  color: black;
+  padding-left:20px ;
+  padding-right: 20px;
+}
+.blocknow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: lightcyan;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.logout{
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+
+  transform: translate(-50%, -50%);
+  background-color: lightcyan;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: lightcyan;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+
+}
+</style>
+</head>
+<body>
+
+<h1><b>Learn & Turn AI</b></h1>
+<p><b><center><i><h1>Searching Algorithms in AI</h1></center></i></b></p>
+<div class="container">
+  <img src="intro4.jpg" alt="introo4" width="1550" height="750">
+  </img>
+ <div class="block">
+      <p><a href="wp4.html">BACK</a></p>
+   </div>
+<div class="logout">
+      <p><a href="wp.html">LOG OUT</a></p>
+   </div>
+<div class="blocknow">
+<h4>Informed Search Algorithm -</h4>
+<p><i>Greedy Search</i> <br>
+
+In greedy search, we expand the node closest to the goal node. The “closeness” is estimated by a heuristic h(x) .
+<br>
+<b><i>Heuristic: </i></b>A heuristic h is defined as-
+h(x) = Estimate of distance of node x from the goal node.
+Lower the value of h(x), closer is the node from the goal.
+<br><i>A* Tree Search</i><br>
+ A* Tree Search, or simply known as A* Search, combines the strengths of uniform-cost search and greedy search. In this search, the heuristic is the summation of the cost in UCS, denoted by g(x), and the cost in greedy search, denoted by h(x). The summed cost is denoted by f(x).
+<br><b><i>
+Heuristic:</i></b> The following points should be noted wrt heuristics in A* search.  f(x) = g(x) + h(x) 
+
+
+<br><i>A* Graph Search</i><br>
+ A* tree search works well, except that it takes time re-exploring the branches it has already explored. In other words, if the same node has expanded twice in different branches of the search tree, A* search might explore both of those branches, thus wasting time
+A* Graph Search, or simply Graph Search, removes this limitation by adding this rule: do not expand the same node more than once.
+<br><b><i>Heuristic.</i></b> Graph search is optimal only when the forward cost between two successive nodes A and B, given by h(A) - h (B) , is less than or equal to the backward cost between those two nodes g(A -> B). This property of graph search heuristic is called consistency.
+</p>
+
+	</div>
+
+
+
+</body>
+</html>
