@@ -1,10 +1,13 @@
 # Learn-And-Turn-AI
-Domain : Web Development.
-Created using HTML, JAVASCRIPT, CSS.
-A free website which provides a small course of Artificial Intelligence with a certificate without providing the author about the user's details.
-Use Xampp server, save the folder and files to htdoc -> wwwroot folder.
+Domain : Web Development.<br /> 
+Created using HTML, JAVASCRIPT, CSS.<br /> 
+A free website which provides a small course of Artificial Intelligence with a certificate without providing the author about the user's details.<br /> 
+Use Xampp server, save the folder and files to htdoc -> wwwroot folder.<br /> 
 Below are some screenshots attached of this project
-![4](https://github.com/yashvishah27/Learn-And-Turn-AI/assets/138695600/d3635069-f4e6-45a8-9afa-c341579fe622)
-![3](https://github.com/yashvishah27/Learn-And-Turn-AI/assets/138695600/025b57e2-5b6a-4fb6-a3c5-648400f2e4f2)
-![2](https://github.com/yashvishah27/Learn-And-Turn-AI/assets/138695600/2f2469e6-dd54-4a8f-bdfc-aed1e120ae14)
-![1](https://github.com/yashvishah27/Learn-And-Turn-AI/assets/138695600/18d524a7-fd20-48af-9735-d4daf78ab525)
+![1](https://github.com/yashvishah27/Learn-And-Turn-AI/assets/138695600/ad4b2671-6011-4f83-a01c-338a37a5d93e)
+
+![2](https://github.com/yashvishah27/Learn-And-Turn-AI/assets/138695600/ae07874c-add0-435a-801c-828173310509)
+
+![3](https://github.com/yashvishah27/Learn-And-Turn-AI/assets/138695600/a9614766-29b4-4165-9141-0c67de5cce94)
+
+![4](https://github.com/yashvishah27/Learn-And-Turn-AI/assets/138695600/4bcecb2e-f243-4476-9ec0-76955c5d810d)
